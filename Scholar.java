@@ -32,12 +32,12 @@ public class Scholar {
 
     @Embedded
     @AttributeOverrides({
-            @AttributeOverride( name = "practicalPhase", column = @Column(name = "practicalphase")),
-            @AttributeOverride( name = "teamName", column = @Column(name = "teamname")),
-            @AttributeOverride( name = "lob", column = @Column(name = "lob")),
-            @AttributeOverride( name = "managerName", column = @Column(name = "managername")),
-            @AttributeOverride( name = "managerInumber", column = @Column(name = "managerinumber")),
-            @AttributeOverride( name = "techStack", column = @Column(name = "techstack"))
+            @AttributeOverride( name = "PracticalPhase", column = @Column(name = "practicalphase")),
+            @AttributeOverride( name = "TeamName", column = @Column(name = "teamname")),
+            @AttributeOverride( name = "Lob", column = @Column(name = "lob")),
+            @AttributeOverride( name = "ManagerName", column = @Column(name = "managername")),
+            @AttributeOverride( name = "ManagerInumber", column = @Column(name = "managerinumber")),
+            @AttributeOverride( name = "TechStack", column = @Column(name = "techstack"))
     })
     private CurrentPracticalPhase currentPracticalPhase;
 
